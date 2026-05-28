@@ -81,7 +81,11 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  flex: 1;
+}
+
+.header-spacer {
+  flex: 1;
 }
 
 .logo-icon {
@@ -1368,6 +1372,10 @@ body {
   .app-nav {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .header-spacer {
+    display: none;
   }
 
   .nav-link {
